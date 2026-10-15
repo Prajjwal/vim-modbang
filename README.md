@@ -1,0 +1,3 @@
+# ModBang
+
+`:%!` on steriods.
