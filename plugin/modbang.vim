@@ -4,6 +4,13 @@ endif
 
 let g:loaded_modbang = 1
 
+if !has('popupwin')
+  echohl WarningMsg
+  echom 'modbang.vim: Requires +popupwin support'
+  echohl None
+  finish
+endif
+
 augroup Modbang
   autocmd!
 
